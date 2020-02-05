@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Mnemonic", "P3.Mnemonic\P3.Mnemonic.csproj", "{FA74F2DF-7BE6-4472-99B3-8127E439AFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3.Mnemonic.Tests", "P3.Mnemonic.Tests\P3.Mnemonic.Tests.csproj", "{EDEB4817-FF3F-488C-A21B-0439673170F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA74F2DF-7BE6-4472-99B3-8127E439AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA74F2DF-7BE6-4472-99B3-8127E439AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA74F2DF-7BE6-4472-99B3-8127E439AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA74F2DF-7BE6-4472-99B3-8127E439AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDEB4817-FF3F-488C-A21B-0439673170F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEB4817-FF3F-488C-A21B-0439673170F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEB4817-FF3F-488C-A21B-0439673170F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEB4817-FF3F-488C-A21B-0439673170F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B794FEE6-03BD-4A00-8722-089584FDF205}
+	EndGlobalSection
+EndGlobal

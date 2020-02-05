@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>p3root</Authors>
+    <Company>p3-software</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/p3root/P3.Mnemonic</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/p3root/P3.Mnemonic</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Words\chinese_simplified.txt" />
+    <None Remove="Words\chinese_traditional.txt" />
+    <None Remove="Words\english.txt" />
+    <None Remove="Words\french.txt" />
+    <None Remove="Words\italian.txt" />
+    <None Remove="Words\japanese.txt" />
+    <None Remove="Words\korean.txt" />
+    <None Remove="Words\spanish.txt" />
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Words\chinese_simplified.txt" />
+    <EmbeddedResource Include="Words\chinese_traditional.txt" />
+    <EmbeddedResource Include="Words\english.txt" />
+    <EmbeddedResource Include="Words\french.txt" />
+    <EmbeddedResource Include="Words\italian.txt" />
+    <EmbeddedResource Include="Words\japanese.txt" />
+    <EmbeddedResource Include="Words\korean.txt" />
+    <EmbeddedResource Include="Words\spanish.txt" />
+  </ItemGroup>
+
+</Project>
