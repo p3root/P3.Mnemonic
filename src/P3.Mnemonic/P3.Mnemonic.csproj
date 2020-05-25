@@ -11,7 +11,7 @@
     <RepositoryUrl>https://github.com/p3root/P3.Mnemonic</RepositoryUrl>
     <Description>Mnemonic code for generating deterministic keys (BIP 39)
 https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki</Description>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
